@@ -1,5 +1,5 @@
 <html>
-<style type='text/css'>
+	<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
 		font-family: "Arial", sans-serif;
@@ -45,7 +45,7 @@
 				buttonId: '5735f000000Tpl7',
 				baseLiveAgentURL: 'https://d.la4-c1-ia4.salesforceliveagent.com/chat',
 				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I5f000000PKfzEAG_17c600abedf',
-				isOfflineSupportEnabled: false
+				isOfflineSupportEnabled: true
 			}
 		);
 	};
