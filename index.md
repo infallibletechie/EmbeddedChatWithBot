@@ -1,11 +1,11 @@
 <html>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #005290;
+		background-color: #000000;
 		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #005290;
+		outline: 1px solid #000000;
 	}
 </style>
 
@@ -35,16 +35,16 @@
 
 		embedded_svc.init(
 			'https://infallibletechie9-dev-ed.my.salesforce.com',
-			'https://infallibletechie9commu-developer-edition.na163.force.com',
+			'https://infallibletechie9-dev-ed.my.salesforce-sites.com/',
 			gslbBaseURL,
 			'00D5f000001yZYJ',
-			'Embedded_Service_with_Bot',
+			'Embedded_Service_Chat_with_Flow',
 			{
 				baseLiveAgentContentURL: 'https://c.la4-c1-ia4.salesforceliveagent.com/content',
-				deploymentId: '5725f000000TpP3',
-				buttonId: '5735f000000Tpl7',
+				deploymentId: '5725f000000Uglj',
+				buttonId: '5735f000000UhKL',
 				baseLiveAgentURL: 'https://d.la4-c1-ia4.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I5f000000PKfzEAG_17c600abedf',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I5f000000PZm1EAG_180441f4720',
 				isOfflineSupportEnabled: false
 			}
 		);
