@@ -7,6 +7,9 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #005290;
 	}
+	button[embeddedService-chatHeader_chatHeader] {
+		font-size: 9px !important;
+	}
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
