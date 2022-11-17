@@ -15,7 +15,7 @@
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
-		embedded_svc.settings.smallCompanyLogoImgURL = '';
+		embedded_svc.settings.smallCompanyLogoImgURL = 'https://infallibletechie9-dev-ed--c.vf.force.com/resource/1668710308000/SampleLogo';
 		embedded_svc.settings.displayHelpButton = true; 
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
