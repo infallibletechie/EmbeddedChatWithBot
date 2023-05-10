@@ -23,13 +23,21 @@
 		    Subject: "Testing"
 		};
 	
-		window.addEventListener("message", receiveMessage, false);
-			function receiveMessage(event) {
-			var payload = event.data;
+		window.addEventListener( "message", receiveMessage, false );
 
-			if(payload && payload.type === "chasitor.sendMessage") {
-				embedded_svc.postMessage("chasitor.sendMessage", payload.message);
+		function receiveMessage( event) {
+
+			let payload = event.data;
+
+			if(payload && payload.type === "agent.sendMessage") {
+	
+				embedded_svc.postMessage( 
+					"agent.sendMessage", 
+					payload.message 
+				);
+	
 			}
+
 		};
 
 		embedded_svc.init(
