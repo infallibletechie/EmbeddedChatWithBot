@@ -33,7 +33,7 @@
 				JSON.stringify( payload )
 			);
 
-			if ( payload ) {
+			if ( payload && payload.type == 'CustomMessage' ) {
 				
 				console.log( 'Inside Post Message' );
 				embedded_svc.postMessage( 
