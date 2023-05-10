@@ -30,7 +30,8 @@
 			let payload = event.data;
 
 			if(payload && payload.type === "agent.sendMessage") {
-	
+				
+				console.log( 'Inside Post Message' );
 				embedded_svc.postMessage( 
 					"agent.sendMessage", 
 					payload.message 
