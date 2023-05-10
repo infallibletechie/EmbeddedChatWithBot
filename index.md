@@ -28,6 +28,10 @@
 		function receiveMessage( event) {
 
 			let payload = event.data;
+			console.log(
+				'Payload is',
+				JSON.stringify( payload );
+			);
 
 			if ( payload ) {
 				
