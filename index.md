@@ -30,7 +30,7 @@
 			let payload = event.data;
 			console.log(
 				'Payload is',
-				JSON.stringify( payload );
+				JSON.stringify( payload )
 			);
 
 			if ( payload ) {
