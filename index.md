@@ -45,6 +45,36 @@
 
 		};
 
+		embedded_svc.addEventHandler( 
+		    "onChatEndedByChasitor", 
+		    function( data ) {
+		    
+		    console.log( 
+		        'Chat was ended by the Visitor' 
+		    );
+		
+		} );
+		 
+		embedded_svc.addEventHandler(
+		    "onChatEndedByAgent", 
+		    function( data ) {
+		    
+		    console.log( 
+		        'Chat was ended by the Agent' 
+		    );
+		
+		} );
+		 
+		embedded_svc.addEventHandler(
+		    "onChatEndedByChatbot", 
+		    function( data ) {
+		
+		    console.log( 
+		        'Chat was ended by the BOT' 
+		    );
+		
+		} );
+
 		embedded_svc.init(
 			'https://infallibletechie9-dev-ed.my.salesforce.com',
 			'https://infallibletechie9-dev-ed.my.site.com/',
