@@ -1,5 +1,5 @@
 <html>
-    <audio id="myAudio">
+    <audio id="AudioId">
         <source src="SampleMusic.mp3" type="audio/mpeg">
     </audio>
     <style type='text/css'>
@@ -27,12 +27,12 @@
             };
             embedded_svc.addEventHandler("onChasitorMessage", function(data) {
                 console.log("onChasitorMessage event was fired");
-                let objSound = document.getElementById("myAudio");
+                let objSound = document.getElementById("AudioId");
                 objSound.play();
             });
             embedded_svc.addEventHandler("onAgentMessage", function(data) {
                 console.log("onAgentMessage event was fired");
-                let objSound = document.getElementById("myAudio");
+                let objSound = document.getElementById("AudioId");
                 objSound.play();
             });
             embedded_svc.init('https://infallibletechie9-dev-ed.my.salesforce.com', 'https://infallibletechie9-dev-ed.my.site.com/', gslbBaseURL, '00D5f000001yZYJ', 'Embedded_Service_with_Bot', {
